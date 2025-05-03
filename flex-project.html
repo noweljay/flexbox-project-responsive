@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="container">
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><i class="fa fa-times"></i></a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
+
+    <ul>
+      <li><a href="#">Code Project</a></li>
+      <li class="hideOnMobile"><a href="#">Home</a></li>
+      <li class="hideOnMobile"><a href="#">About</a></li>
+      <li class="hideOnMobile"><a href="#">Services</a></li>
+      <li class="hideOnMobile"><a href="#">Contacts</a></li>
+      <li onclick=showSidebar() class="menu-button"><a href="#"><i class="fa fa-bars"></i></a></li>
+    </ul>
+  </nav>
+
+  <section class="intro container">
+    <h1>Build. Grow. Serve.</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et fringilla purus, sit amet vehicula velit. Phasellus consectetur diam sed tortor tempor, vel posuere lorem gravida. Fusce in libero risus. Phasellus ullamcorper ut diam sit amet gravida. Morbi dapibus dolor sed urna fermentum interdum. Aliquam ut libero</p>
+    <button class="btn"><a href="#">Learn More</a></button>
+  </section>
+
+  <section class="banner container">
+    <img src="https://images.unsplash.com/photo-1504608245011-62d9758c1bb9?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDE5NjN8&ixlib=rb-4.0.3&q=85" alt="laptop-on-a-desk" />
+    <h2>Welcome to my Mini-Project, incorporating the use of Flexbox in this Minimalist design website.</h2>
+  </section>
+
+  <main class="container">
+    <div class="content-pair">
+      <div class="img">
+        <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNjQxODF8&ixlib=rb-4.0.3&q=85" alt="laptop-setup" />
+      </div>
+      <div class="about">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et fringilla purus, sit amet vehicula velit. Phasellus consectetur diam sed tortor tempor, vel posuere lorem gravida. Fusce in libero risus. Phasellus ullamcorper ut diam sit amet gravida. Morbi dapibus dolor sed urna fermentum interdum. Aliquam ut libero</p>
+        <button class="btn"><a href="#">Learn More</a></button>
+      </div>
+    </div>
+
+    <div class="content-pair">
+      <div class="img">
+        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNjQxODl8&ixlib=rb-4.0.3&q=85" alt="coding" />
+      </div>
+      <div class="about">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et fringilla purus, sit amet vehicula velit. Phasellus consectetur diam sed tortor tempor, vel posuere lorem gravida. Fusce in libero risus. Phasellus ullamcorper ut diam sit amet gravida. Morbi dapibus dolor sed urna fermentum interdum. Aliquam ut libero</p>
+        <button class="btn"><a href="#">Learn More</a></button>
+      </div>
+    </div>
+
+    <div class="content-pair">
+      <div class="img">
+        <img src="https://images.unsplash.com/photo-1525540810550-5032f5d191b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNjQxODl8&ixlib=rb-4.0.3&q=85" alt="a-person-with-a-vr" />
+      </div>
+      <div class="about">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et fringilla purus, sit amet vehicula velit. Phasellus consectetur diam sed tortor tempor, vel posuere lorem gravida. Fusce in libero risus. Phasellus ullamcorper ut diam sit amet gravida. Morbi dapibus dolor sed urna fermentum interdum. Aliquam ut libero</p>
+        <button class="btn"><a href="#">Learn More</a></button>
+      </div>
+    </div>
+
+    <div class="content-pair">
+      <div class="img">
+        <img src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNjQxODl8&ixlib=rb-4.0.3&q=85" alt="laptop-on-a-desk" />
+      </div>
+      <div class="about">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et fringilla purus, sit amet vehicula velit. Phasellus consectetur diam sed tortor tempor, vel posuere lorem gravida. Fusce in libero risus. Phasellus ullamcorper ut diam sit amet gravida. Morbi dapibus dolor sed urna fermentum interdum. Aliquam ut libero</p>
+        <button class="btn"><a href="#">Learn More</a></button>
+      </div>
+    </div>
+  </main>
+
+  <section class="more container">
+    <h2>Explore a few of my mini-responsive projects</h2>
+    <button class="btn"><a href="#">My work</a></button>
+  </section>
+
+  <article class="container">
+    <div class="content">
+      <div class="img">
+        <img src="https://images.unsplash.com/photo-1613993995046-07bce4b0bfed?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNjQxMDR8&ixlib=rb-4.0.3&q=85" alt="communication-tools" />
+      </div>
+      <div class="about">
+        <h3>Info</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et fringilla purus, sit amet vehicula velit. Phasellus consectetur diam sed tortor tempor, vel posuere lorem gravida. Fusce in libero risus. Phasellus ullamcorper ut diam sit amet gravida. Morbi dapibus dolor sed urna fermentum interdum. Aliquam ut libero</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="img">
+        <img src="https://images.unsplash.com/photo-1479920252409-6e3d8e8d4866?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNjQxMDR8&ixlib=rb-4.0.3&q=85" alt="coding-in-laptop" />
+      </div>
+      <div class="about">
+        <h3>Info</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et fringilla purus, sit amet vehicula velit. Phasellus consectetur diam sed tortor tempor, vel posuere lorem gravida. Fusce in libero risus. Phasellus ullamcorper ut diam sit amet gravida. Morbi dapibus dolor sed urna fermentum interdum. Aliquam ut libero</p>
+      </div>
+    </div>
+  </article>
+
+  <section class="container socials">
+    <a href="#"><i class="fa fa-facebook-f"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+  </section>
+
+  <section class="more container">
+    <h2>I'd love to be your partner</h2>
+    <button class="btn"><a href="#">Get in touch</a></button>
+  </section>
+
+  <footer class="container">
+    <ul class="links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
+
+    <ul class="links">
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Blogs</a></li>
+      <li><a href="#">Web</a></li>
+      <li><a href="#">Commissions</a></li>
+    </ul>
+
+    <ul class="end">
+      <li><a href="#">Socials</a></li>
+      <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="#">GitHub</a></li>
+    </ul>
+  </footer>
+
+  <script src="myscripts.js"></script>
+</body>
+
+</html>
